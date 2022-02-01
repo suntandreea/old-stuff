@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Kievit Regular';
+	src: url("KievitWebPro-Book.eot");
+	src: local('Kievit Regular'), url("KievitWebPro-Book.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Kievit Medium';
+	src: url("KievitWebPro-Medi.eot");
+	src: local('Kievit Medium'), url("KievitWebPro-Medi.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Kievit Bold';
+	src: url("KievitWebPro-Bold.eot");
+	src: local('Kievit Medium'), url("KievitWebPro-Bold.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Kievit Light';
+	src: url("KievitWeb-Light.eot");
+	src: local('Kievit Light'), url("KievitWeb-Light.woff") format('woff');
+}

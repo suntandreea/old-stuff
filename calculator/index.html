@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="style.css" rel="stylesheet">
+  <title>Calculator</title>
+</head>
+<script src="script.js" type="text/javascript"></script>
+    
+<body>
+  <script language="JavaScript" type="text/javascript"> setStartState() </script>
+
+  <h1>Welcome! I've been expecting you!</h1>
+
+  <form name="calculator" id="calculator">
+    
+      <div class="displayBox">
+        <table>
+          <tr>
+            <td colspan="5"><input class="display" type="text" name="total" value="0" size="15" /></td>
+          </tr>
+       </table>
+      </div><!-- end of displayBox -->
+      <div class="buttonBox">
+        <table>
+          <tr>
+            <td><input class="button" type="button" name="n7" value="7" onclick="addDigit(7)" /></td>
+            <td><input class="button" type="button" name="n8" value="8" onclick="addDigit(8)" /></td>
+            <td><input class="button" type="button" name="n9" value="9" onclick="addDigit(9)" /></td>
+            <td rowspan="2"><input class="button big" type="button" name="minus" value="-" onclick="performOp('-')" /></td>
+            <td><input class="button" type="button" name="multiply" value="*" onclick="performOp('*')" /></td>
+          </tr>
+          <tr>       
+            <td><input class="button" type="button" name="n4" value="4" onclick="addDigit(4)" /></td>
+            <td><input class="button" type="button" name="n5" value="5" onclick="addDigit(5)" /></td>
+            <td><input class="button" type="button" name="n6" value="6" onclick="addDigit(6)" /></td>
+            <td><input class="button" type="button" name="divide" value="/" onclick="performOp('/')" /></td>
+          </tr>
+          <tr>
+            <td><input class="button" type="button" name="n1" value="1" onclick="addDigit(1)" /></td>
+            <td><input class="button" type="button" name="n2" value="2" onclick="addDigit(2)" /></td>
+            <td><input class="button" type="button" name="n3" value="3" onclick="addDigit(3)" /></td>
+            <td rowspan="2"><input class="button big" type="button" name="plus" value="+" onclick="performOp('+')" /></td>
+            <td><input class="button" type="button"  name="sign" value="&plusmn;" onclick="changeSign()" /></td>
+          </tr>
+          <tr>
+            <td><input class="button" type="button" name="n0" value="0" onclick="addDigit(0)" /></td>        
+            <td><input class="button" type="button" name="decimal" value="." onclick="addDecimalPoint()" /></td>
+            <td><input class="button" type="button" name="equals" value="=" onclick="calc()" /></td>
+            <td><input class="button" type="button" name="clearField" value="C" onclick="clearDisplay()" /></td>
+          </tr>
+        </table>
+      </div><!-- end of buttonBox -->
+  </form>
+
+</body>
+</html>

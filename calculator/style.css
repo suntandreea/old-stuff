@@ -1,0 +1,84 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 100%;
+	font-family: Tahoma;
+	vertical-align: middle;
+}
+
+table{
+	margin:0 auto;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(font/digital7.ttf);
+}
+
+h1{
+	height:50px;
+	line-height: 50px;
+	background: #333;
+	color:#eee;
+	font-size:14px;
+	margin-bottom: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+
+#calculator{
+	background: #F5F5F5;
+	border:2px solid #333;
+	border-radius: 20px;
+	margin:0 auto;
+	width: 330px;
+}
+
+.button{
+	width: 50px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background: #554D4A;
+	color:#eee;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #bbb;
+	font-weight: bold;
+	font-size: 36px;
+	margin:1px;
+}
+
+.big{
+	height:96px;
+	line-height: 96px;
+}
+
+.buttonBox{
+	border:1px solid #999;
+	border-radius: 1px;
+	padding: 10px;
+	width:268px;
+	margin: 20px auto;
+}
+
+.display {
+    font-family: myFont;
+    font-size: 50px;
+    background: #8C918B;
+    color:black;
+    border:3px outset #eee;
+    width: 252px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #bbb;
+    padding: 0px 4px;
+}
+
+.displayBox {
+	border:1px solid #999;
+	border-radius: 10px;
+	padding:10px 10px 20px 10px;
+	width: 268px;
+	margin:0 auto;
+	margin-top: 20px;
+}
